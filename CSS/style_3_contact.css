@@ -1,0 +1,33 @@
+/* Reset */
+* { box-sizing: border-box; }
+
+/* Page look */
+body {
+  background: #262222;          /* your dark theme */
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+/* Section typography */
+section h1 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: #000;                  /* black on light section */
+}
+section p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* Optional: tweak h2 in the details section */
+section h2 {
+  font-size: 28px;
+  color: #000;
+  margin-top: 20px;
+}
+
+/* IMPORTANT: do NOT add sticky rules here.
+   No display:flex on body, no margin-top:auto on footer.
+   Bootstrap is handling stickiness via classes. */

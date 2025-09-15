@@ -1,0 +1,41 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page background + font */
+body {
+  background: #262222; /* dark background */
+  font-family: "Inter", sans-serif;
+  color: #fff; /* fallback text color */
+}
+
+/* Section headings */
+section h1 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: #000; /* black on light background */
+}
+
+section h2 {
+  font-size: 32px;
+  margin-top: 20px;
+  color: #000;
+}
+
+section p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* Footer is styled by Bootstrap classes in HTML.
+   If you want extra tweaks, you can add them here. */
+footer {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}

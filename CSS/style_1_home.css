@@ -1,0 +1,49 @@
+/* General box-sizing fix */
+* {
+  box-sizing: border-box;
+}
+
+/* Page background (if you want the dark theme back) */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0; /* remove browser default margins */
+  background: #262222;
+  font-family: "Inter", sans-serif;
+}
+
+/* Hero Section overrides (since Bootstrap already provides structure) */
+section h1 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: #000; /* black text on light background */
+}
+
+section p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+}
+
+/* Button custom styling (Bootstrap already applies btn-success) */
+.btn-success {
+  background: #28a745;
+  border: none;
+  font-size: 20px;
+  padding: 12px 30px;
+  font-weight: 600;
+}
+
+/* Sticky footer */
+footer {
+  background: #111;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 0;
+  margin-top: auto; /* push footer down */
+}
